@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'Roboto Slab';
+	src: url('../fonts/RobotoSlab-Regular.woff2') format('woff2'),
+	url('../fonts/RobotoSlab-Regular.woff') format('woff');
+	font-weight: 1;
+	font-style: normal;
+}
+
+header, nav, .navbar, .search-bar {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+
+
+body, .hero, .content-section, .text-container {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 300;
+}

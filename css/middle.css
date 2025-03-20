@@ -1,0 +1,69 @@
+.content-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    padding: 50px 20px;
+}
+
+.text-container {
+    max-width: 450px;
+}
+
+.text-container h2 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: start;
+}
+
+.text-container p {
+    max-width: 350px;
+    line-height: 1.6;
+    text-align: start;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.activity-card {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.activity-card img {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    border: none;
+    text-align: center;
+}
+
+.card img {
+    height: 200px;
+    object-fit: contain;
+}
